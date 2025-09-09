@@ -1,0 +1,15 @@
+body {
+  box-sizing: content-box;
+  background-color: black;
+  background-image: url(./assets/pw-backgroud.jpg);
+  background-size: cover;
+  color: indianred;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  opacity: 0.95;
+  height: 100%;
+}
+
+footer {
+  background-color: gainsboro;
+}
