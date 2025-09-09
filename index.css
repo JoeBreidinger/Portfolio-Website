@@ -72,7 +72,7 @@ h1 a {
   border: 0.5em solid darkgray;
   border-radius: 50%;
   padding: 0;
-  margin: 3em;
+  margin: 8%;
   transform: translate(0, 25%);
 }
 
@@ -81,7 +81,7 @@ h1 a {
 footer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0;
   bottom: 0;
   padding: 0;
@@ -91,12 +91,21 @@ footer {
 }
 .contact-icons {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
+  margin: 0% 15% 0% 15%;
+  padding: 0;
+}
+.contact-icons li {
+  padding: 5%;
+  margin; 5%
 }
 .contact-icons a {
   text-decoration: none;
+  font-weight: 600;
   color: black;
-  padding: 5em;
+}
+.contact-icons a:hover {
+    border-bottom: 2px solid darkgray;
 }
