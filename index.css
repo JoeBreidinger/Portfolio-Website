@@ -99,7 +99,7 @@ footer {
 }
 .contact-icons li {
   padding: 5%;
-  margin; 5%
+  margin: 5%;
 }
 .contact-icons a {
   text-decoration: none;
@@ -107,5 +107,5 @@ footer {
   color: black;
 }
 .contact-icons a:hover {
-    border-bottom: 2px solid darkgray;
+  border-bottom: 2px solid darkgray;
 }
