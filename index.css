@@ -1,6 +1,6 @@
 /* ==NAVIGATION== */
 
-.top-ribbon {
+/* .top-ribbon {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,7 @@ h1 a {
 .nav-bar li:hover {
   font-weight: 500;
   border-bottom: 3px solid indianred;
-}
+} */
 
 /* ==MAINPAGE== */
 
