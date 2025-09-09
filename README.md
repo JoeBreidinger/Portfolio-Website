@@ -1,2 +1,2 @@
 # Portfolio-Website
-Professional portfolio website - Networking - Freelancing - Job Seeking
+Professional Portfolio Website - Networking - Freelancing - Job Seeking
