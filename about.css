@@ -1,0 +1,45 @@
+/* ==ABOUT PANELS== */
+
+.about-section {
+  padding: 0 auto;
+  margin: 0 10%;
+}
+.about-panel {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  margin: 10% 0;
+  place-items: center;
+}
+.about-panel > h3 {
+  font-size: 28pt;
+  padding: 0;
+  margin: 0;
+  transform: translate(0 -20%);
+  color: darkgray;
+  text-decoration: underline;
+  font-style: italic;
+}
+.about-panel > p {
+  font-size: 18pt;
+  padding: 0;
+  margin-top: 0;
+  transform: translate(0 -20%);
+  color: steelblue;
+}
+#color-correct {
+  color: ghostwhite;
+}
+
+/* ==IMAGES== */
+
+.picture {
+  height: auto;
+  width: 45%;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  grid-area: 1 / 2 / -1 / -1;
+}
+.professional {
+  grid-area: 1 / 1 / -1 / 2;
+}
