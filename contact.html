@@ -29,12 +29,44 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <section>
-      <div>
-        <p>GitHub</p>
-        <p>Discord</p>
-        <p>LinkedIn</p>
-        <p>Contact</p>
+    <section class="contact-page">
+      <div class="contact-buttons">
+        <p><img src="/assets/github.png" alt="GitHub" /></p>
+        <p><img src="./assets/linkedin.png" alt="LinkedIn" /></p>
+        <p><img src="/assets/discord.png" alt="Discord" /></p>
+        <p><img src="assets/gmail.png" alt="Gmail" /></p>
+      </div>
+      <div class="contact-form-box">
+        <form class="contact-form">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Name"
+            required
+          />
+
+          <label for="message">Message:</label>
+          <input
+            type="message"
+            id="message"
+            name="message"
+            placeholder="Write your message here..."
+            required
+          />
+
+          <button type="submit">Send</button>
+        </form>
       </div>
     </section>
     <footer>

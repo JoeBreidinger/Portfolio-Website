@@ -76,3 +76,14 @@ h1 a {
 footer {
   background-color: gainsboro;
 }
+
+/* ==MEDIA QUERIES== */
+@media (max-width: 479px) {
+  /* CSS rules for screens 480px wide or smaller */
+}
+@media (max-width: 767px) {
+  /* CSS rules for screens 7680px wide or smaller */
+}
+@media (max-width: 1023px) {
+  /* CSS rules for screens 1024px wide or smaller */
+}
