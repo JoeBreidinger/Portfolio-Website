@@ -37,6 +37,9 @@ body {
   justify-content: center;
   align-items: start;
 }
+.nametag a {
+  color: gainsboro;
+}
 .nametag > h3 {
   color: darkgray;
 }
