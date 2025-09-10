@@ -3,7 +3,7 @@
 body {
   box-sizing: content-box;
   background-color: black;
-  background-image: url(./assets/pw-backgroud.jpg);
+  background-image: url(./assets/pw-background-1.jpg);
   background-size: cover;
   color: indianred;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -55,6 +55,7 @@ h1 a {
 
 .nav-bar a {
   text-decoration: none;
+  font-weight: 500;
   color: indianred;
 }
 .nav-bar {
@@ -64,7 +65,7 @@ h1 a {
 }
 .nav-bar li {
   padding: 1em 2em;
-  font-size: 14pt;
+  font-size: 16pt;
 }
 .nav-bar li:hover {
   font-weight: 500;
