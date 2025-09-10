@@ -1,0 +1,56 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10% 0;
+}
+video {
+  width: auto;
+  height: 80vh;
+  border-radius: 5%;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+section > div {
+  display: flex;
+  padding: 10%;
+  justify-content: space-around;
+  align-items: center;
+}
+article {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-image: url(./assets/pw-background-3.jpg);
+  background-size: cover;
+  padding: 5%;
+  width: 25%;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  color: gainsboro;
+}
+article:hover {
+  transform: scale(1.05);
+}
+article > h2 {
+  margin: 0%;
+  padding: 5%;
+}
+p {
+  margin: 0;
+  padding: 5%;
+}
+article > img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 2.5%;
+  border: 1px solid indianred;
+}
